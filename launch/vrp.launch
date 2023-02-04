@@ -1,0 +1,14 @@
+<launch> 
+  <node name="vrp_node" pkg="vrp_ros" type="vrp_node.py" output="screen">
+    <param name="dist_increment" value="1.2"/>
+    <param name="max_velocity" value="0.4"/>
+    <param name="time_battery_consumption" value="0.2"/>
+    <param name="land_factor" value="0.8"/>
+    <param name="land_time" value="4"/>
+    <param name="takeoff_factor" value="1.2"/>
+    <param name="takeoff_time" value="6"/>
+    <param name="inspect_factor" value="1.0"/>
+    <param name="inspect_time" value="30"/>
+    <param name="kk" value="1000"/>
+  </node>
+</launch>
